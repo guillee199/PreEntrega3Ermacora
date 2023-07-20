@@ -1,0 +1,13 @@
+nav{
+    background-color: $firstcolor ;
+    a{
+        text-decoration: none;
+        color:$secondcolor
+         !important;
+        font-size: 20px;
+    }
+}
+
+nav a:hover {
+    color:black !important;
+}

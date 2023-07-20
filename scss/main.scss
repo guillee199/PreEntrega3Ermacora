@@ -1,0 +1,59 @@
+@import "_vars.scss";
+@import "commons.scss";
+@import "_nav.scss";
+@import "_footer.scss";
+@import "_productos";
+@import "_nosotros";
+@import "_contacto";
+
+.index-main h1{
+    margin-top: 10px;
+}
+.index-main h1 , .index-main p, .index-main h2{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.index-main p{
+    font-size: 20px;
+}
+.header-back  {
+    background-color: rgb(162, 130, 97);
+    text-align: center;
+}
+.main-top {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-top h1, .main-top p, .main-top h2{
+   
+    margin-bottom: 20px;
+}
+
+.main-top .container, .margin-top .container .row {
+    margin: 0 auto !important;
+    text-align: center;
+    margin-left: 20px;
+}
+@media (width < 576px){
+
+
+    header section img {
+        width: 350px;
+    }
+
+    .main-top .container, .margin-top .container .row {
+        margin: 0 auto !important;
+        text-align: center;
+    }
+
+    .main-top {
+    max-width: 350px;
+    }
+
+    .row .col {
+    margin-bottom: 30px;
+    }
+}

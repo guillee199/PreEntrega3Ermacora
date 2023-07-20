@@ -1,0 +1,25 @@
+$firstcolor:rgb(129, 105, 80);
+$secondcolor:rgb(162, 130, 97);
+$thirdcolor:rgb(219, 203, 191);
+
+$mainfont:'Inter',sans-serif;
+
+*{
+    font-family: 'Inter', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+@media (width > 1000px) {
+    .row .col {
+       margin-left: 20px;
+       margin-bottom:20px
+   }
+}
+
+.row .col {
+   background: $thirdcolor;
+   padding: 20px;
+   border-radius:20px;
+}
